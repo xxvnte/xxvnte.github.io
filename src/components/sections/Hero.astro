@@ -5,6 +5,7 @@ import Mail from "@/icons/Mail.astro";
 import Phone from "@/icons/Phone.astro";
 import GitHub from "@/icons/GitHub.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
+import WorldMap from "@/icons/WorldMap.astro";
 
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
@@ -21,6 +22,7 @@ const SOCIAL_ICONS: Record<string, any> = {
       <h1>{name}</h1>
       <h2>{label}</h2>
       <span>
+        <WorldMap />
         {city}, {region}
       </span>
       <footer>
@@ -81,6 +83,14 @@ const SOCIAL_ICONS: Record<string, any> = {
     align-items: center;
     justify-content: scape-between;
     gap: 1rem;
+}
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      padding-right: 32px;
+    }
 
     h1 {
         font-size: 2rem;
@@ -92,5 +102,42 @@ const SOCIAL_ICONS: Record<string, any> = {
         font-size: 1.1rem;
         text-wrap: balance;
     }
-  }
+
+    img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 128px;
+    border-radius: 6px;
+    }
+
+    span {
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.85rem;
+    letter-spacing: -0.05rem;
+    }
+
+    footer {
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+    }
+
+    footer a {
+    color: #777;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    height: 32px;
+    width: 32px;
+    border-radius: 6px;
+    transition: all .3s ease;
+    }
+
+    footer a:hover {
+      background: #eee;
+    }
 </style>
