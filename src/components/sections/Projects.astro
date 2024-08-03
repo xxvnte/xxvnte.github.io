@@ -12,9 +12,12 @@ import { projects } from "@cv";
           <li>
             <article>
               <header>
+                <h3>
                 <a href={url} target="_blank" title={`Ver el proyecto ${name}`}>
-                  <h3>{name}</h3>
+                  {name}
                 </a>
+                {isActive && <span>&bull;</span>}
+              </h3>
                 <p>{description}</p>
               </header>
               <footer>
@@ -35,7 +38,7 @@ import { projects } from "@cv";
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
-    margin-inline: -16px;
+    /*margin-inline: -16px;*/
   }
 
   article {

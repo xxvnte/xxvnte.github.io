@@ -7,9 +7,12 @@ import Hero from "@/components/sections/Hero.astro";
 import Projects from "@/components/sections/Projects.astro";
 import Skills from "@/components/sections/Skills.astro";
 import KeyboardManager from "@/components/KeyboardManager.astro";
+
+import {basics} from "@cv"
+const {name, label} = basics
 ---
 
-<Layout title="Vicente Leiva Portfolio">
+<Layout title={`Portafolio de ${name} - ${label}`}>
   <main>
     <Hero />
     <About />
@@ -23,7 +26,9 @@ import KeyboardManager from "@/components/KeyboardManager.astro";
 </Layout>
 
 <style>
-  padding: 4rem;
-  margin: auto;
-  width: 100%;
+  main {
+    padding: 4rem;
+    margin: auto;
+    width: 100%;
+  }
 </style>

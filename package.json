@@ -13,6 +13,9 @@
   "dependencies": {
     "@astrojs/check": "^0.9.1",
     "astro": "^4.13.0",
+    "hotkeypad": "^0.1.1",
+    "ninja-keys": "^1.2.2",
+    "types": "^0.1.1",
     "typescript": "^5.5.4"
   },
   "devDependencies": {
