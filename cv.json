@@ -5,7 +5,7 @@
       "image": "/me.webp",
       "email": "vicente13862@gmail.com",
       "phone": "+56 9 82648437",
-      "url": "https://midu.dev",
+      "url": "https://xxvnte.github.io/",
       "summary": "Soy un estudiante de tercer año de ingeniería civil en informática y telecomunicaciones en la Universidad Diego Portales. Apasionado por la programación y las matemáticas, con conocimientos en diversos lenguajes de programación y habilidades en resolución de problemas.",
       "location": {
         "address": "",
@@ -29,35 +29,14 @@
     },
     "work": [
       {
-        "name": "midudev",
-        "position": "Divulgador sobre Programación Web",
-        "url": "https://twitch.tv/midudev",
-        "startDate": "2021-01-01",
+        "name": "",
+        "position": "",
+        "url": "",
+        "startDate": "",
         "endDate": null,
-        "summary": "Soy un estudiante de tercer año de ingeniería civil en informática y telecomunicaciones. Apasionado por la programación y las matemáticas, con conocimientos en diversos lenguajes de programación y habilidades en resolución de problemas.",
+        "summary": "",
         "highlights": [
-          "Started the company"
-        ]
-      },
-      {
-        "name": "Adevinta",
-        "position": "Lead Frontend Architect",
-        "url": "https://twitch.tv/midudev",
-        "startDate": "2016-06-01",
-        "endDate": "2022-09-01",
-        "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-        "highlights": [
-          "Started the company"
-        ]
-      },
-      {
-        "name": "Hubii",
-        "position": "Senior FrontEnd Developer",
-        "startDate": "2011-03-01",
-        "endDate": "2016-05-01",
-        "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
-        "highlights": [
-          "Started the company"
+          ""
         ]
       }
     ],
@@ -73,12 +52,12 @@
       ]
     }],
     "education": [{
-      "institution": "Universitat Oberta de Catalunya",
-      "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Ingeniero de Software",
+      "institution": "Universidad Diego Portales",
+      "url": "https://eit.udp.cl/carrera-udp/sobre-la-carrera/",
+      "area": "Ingeniero Civil en Informática y Telecomunicaciones",
       "studyType": "Bachelor",
-      "startDate": "2003-01-01",
-      "endDate": "2009-01-01",
+      "startDate": "2022-03-09",
+      "endDate": null,
       "score": "4.0",
       "courses": [
         "DB1101 - Basic SQL"
@@ -205,66 +184,37 @@
     }],
     "projects": [
       {
-        "name": "mars.codes",
-        "isActive": true,
-        "description": "Historia interactiva con retos de programación para viajar a Marte",
-        "highlights": [
-          "Elige tu propia aventura",
-          "En desarrollo"
-        ],
-        "url": "https://mars.codes"
-      },
+        "name": "Chaleco Inteligente",
+    "isActive": true,
+    "description": "Interfaz visual para monitorear datos de un chaleco inteligente con GPS y sensores de pulso y oxígeno. Permite a los usuarios registrarse, iniciar sesión, editar sus datos personales y visualizar en tiempo real datos como velocidad, distancia, pulso, niveles de oxígeno y calorías quemadas.",
+    "highlights": [
+      "Node & Express",
+      "React & Tailwind",
+      "PostgreSQL"
+    ],
+    "url": "https://github.com/xxvnte/website-chaleco_inteligente"
+  },
+  {
+    "name": "Sitio Web de Votaciones",
+    "isActive": false,
+    "description": "Plataforma para votar en eventos con roles de usuario y administrador. Permite registrar, iniciar sesión, visualizar y votar en eventos. Administradores pueden crear y configurar eventos. Alojado en AWS EC2 (actualmente apagado).",
+    "highlights": [
+      "Node & Express",
+      "HBS & Bootstrap",
+      "MongoDB"
+    ],
+    "url": "https://github.com/xxvnte/website-reality_show"  
+  },
       {
-        "name": "AdventJS",
+        "name": "Sitio Web de Recetas de Cocina",
         "isActive": true,
-        "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+        "description": "Plataforma para visualizar y crear recetas de cocina. Los usuarios pueden subir, editar y eliminar recetas, marcarlas como favoritas y gestionar su cuenta.",
         "highlights": [
-          "+1 millón de visitas",
-          "Multidioma",
-          "JavaScript & TypeScript"
+          "Node & Express",
+          "HBS & Bootstrap",
+          "PostgreSQL"
         ],
-        "url": "https://adventjs.dev"
-      },
-      {
-        "name": "Codember",
-        "isActive": true,
-        "description": "Juego interactivo de programación con retos y secretos",
-        "highlights": [
-          "+2000 usuarios activos",
-          "Retos para cualquier lenguaje"
-        ],
-        "url": "https://codember.dev"
-      },
-      {
-        "name": "codi.link",
-        "isActive": true,
-        "description": "Playground de código HTML, CSS y JavaScript para compartir",
-        "highlights": [
-          "100k visitas al mes",
-          "Desarrollado por la comunidad"
-        ],
-        "url": "https://codi.link",
-        "github": "https://github.com/midudev/codi.link"
-      },
-      {
-        "name": "Pruebas Técnicas",
-        "isActive": true,
-        "description": "Lista de pruebas técnicas de empresas para practicar programación",
-        "highlights": [
-          "100% gratuito",
-          "+500 soluciones de la comunidad"
-        ],
-        "url": "https://pruebastecnicas.com",
-        "github": "https://github.com/midudev/pruebas-tecnicas"
-      },
-      {
-        "name": "miduConf",
-        "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-        "highlights": [
-          "+15k tickets repartidos",
-          "+50k espectadores en directo"
-        ],
-        "url": "https://miduconf.com"
+        "url": "https://github.com/xxvnte/website-recetas_de_cocina" 
       }
     ]
   }
