@@ -308,7 +308,7 @@
     {
       "name": "Sitio Web de Votaciones",
       "isActive": false,
-      "description": "Plataforma para votar en eventos con roles de usuario y administrador. Permite registrar, iniciar sesión, visualizar y votar en eventos. Administradores pueden crear y configurar eventos. Alojado en AWS EC2 (actualmente apagado).",
+      "description": "Plataforma para votar en eventos con roles de usuario y administrador. Permite registrar, iniciar sesión, visualizar y votar en eventos. Administradores pueden crear y configurar eventos. Alojado en AWS EC2.",
       "highlights": [
         "Node & Express",
         "HBS & Bootstrap",
