@@ -296,7 +296,7 @@
   "projects": [
     {
       "name": "Chaleco Inteligente",
-      "isActive": true,
+      "isActive": false,
       "description": "Interfaz visual para monitorear datos de un chaleco inteligente con GPS y sensores de pulso y oxígeno. Permite a los usuarios registrarse, iniciar sesión, editar sus datos personales y visualizar en tiempo real datos como velocidad, distancia, pulso, niveles de oxígeno y calorías quemadas.",
       "highlights": [
         "Node & Express",
@@ -318,7 +318,7 @@
     },
     {
       "name": "Sitio Web de Recetas de Cocina",
-      "isActive": true,
+      "isActive": false,
       "description": "Plataforma para visualizar y crear recetas de cocina. Los usuarios pueden subir, editar y eliminar recetas, marcarlas como favoritas y gestionar su cuenta.",
       "highlights": [
         "Node & Express",
