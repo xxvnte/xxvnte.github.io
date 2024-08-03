@@ -18,11 +18,9 @@ import { projects } from "@cv";
                 <p>{description}</p>
               </header>
               <footer>
-                <ul>
-                  {highlights.map((highlights) => {
-                    return <li>{highlights}</li>;
-                  })}
-                </ul>
+                {highlights.map((highlights) => {
+                  return <span>{highlights}</span>;
+                })}
               </footer>
             </article>
           </li>
@@ -83,16 +81,15 @@ import { projects } from "@cv";
   footer {
     display: flex;
     flex-wrap: wrap;
-    gap: 1px;
-    font-size: 0.8rem;
-    padding-left: 1rem;
+    gap: 4px;
+    font-size: 0.6rem;
   }
 
   footer span {
     border-radius: 6px;
     background: #eee;
     color: #444;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     font-weight: 500;
     padding: 0.2rem 0.6rem;
   }
