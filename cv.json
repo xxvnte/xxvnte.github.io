@@ -1,46 +1,47 @@
 {
-    "basics": {
-      "name": "Vicente Leiva",
-      "label": "Full Stack Developer",
-      "image": "/me.webp",
-      "email": "vicente13862@gmail.com",
-      "phone": "+56 9 82648437",
-      "url": "https://xxvnte.github.io/",
-      "summary": "Soy un estudiante de tercer año de ingeniería civil en informática y telecomunicaciones en la Universidad Diego Portales. Apasionado por la programación y las matemáticas, con conocimientos en diversos lenguajes de programación y habilidades en resolución de problemas.",
-      "location": {
-        "address": "",
-        "postalCode": "08820",
-        "city": "Santiago",
-        "countryCode": "ES",
-        "region": "Chile"
-      },
-      "profiles": [
-        {
-          "network": "GitHub",
-          "username": "xxvnte",
-          "url": "https://github.com/xxvnte"
-        },
-        {
-          "network": "LinkedIn",
-          "username": "Vicente Leiva",
-          "url": "https://cl.linkedin.com/in/vicente-leiva-b368892a6"
-        }
-      ]
+  "basics": {
+    "name": "Vicente Leiva",
+    "label": "Full Stack Developer",
+    "image": "/me.webp",
+    "email": "vicente13862@gmail.com",
+    "phone": "+56 9 82648437",
+    "url": "https://xxvnte.github.io/",
+    "summary": "Soy un estudiante de tercer año de ingeniería civil en informática y telecomunicaciones en la Universidad Diego Portales. Apasionado por la programación y las matemáticas, con conocimientos en diversos lenguajes de programación y habilidades en resolución de problemas.",
+    "location": {
+      "address": "",
+      "postalCode": "08820",
+      "city": "Santiago",
+      "countryCode": "ES",
+      "region": "Chile"
     },
-    "work": [
+    "profiles": [
       {
-        "name": "",
-        "position": "",
-        "url": "",
-        "startDate": "",
-        "endDate": null,
-        "summary": "",
-        "highlights": [
-          ""
-        ]
+        "network": "GitHub",
+        "username": "xxvnte",
+        "url": "https://github.com/xxvnte"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Vicente Leiva",
+        "url": "https://cl.linkedin.com/in/vicente-leiva-b368892a6"
       }
-    ],
-    "volunteer": [{
+    ]
+  },
+  "work": [
+    {
+      "name": "",
+      "position": "",
+      "url": "",
+      "startDate": "",
+      "endDate": null,
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "volunteer": [
+    {
       "organization": "Organization",
       "position": "Volunteer",
       "url": "https://organization.com/",
@@ -50,8 +51,10 @@
       "highlights": [
         "Awarded 'Volunteer of the Month'"
       ]
-    }],
-    "education": [{
+    }
+  ],
+  "education": [
+    {
       "institution": "Universidad Diego Portales",
       "url": "https://eit.udp.cl/carrera-udp/sobre-la-carrera/",
       "area": "Ingeniero Civil en Informática y Telecomunicaciones",
@@ -62,159 +65,267 @@
       "courses": [
         "DB1101 - Basic SQL"
       ]
-    }],
-    "awards": [{
+    }
+  ],
+  "awards": [
+    {
       "title": "Award",
       "date": "2014-11-01",
       "awarder": "Company",
       "summary": "There is no spoon."
-    }],
-    "certificates": [{
+    }
+  ],
+  "certificates": [
+    {
       "name": "Certificate",
       "date": "2021-11-07",
       "issuer": "Company",
       "url": "https://certificate.com"
-    }],
-    "publications": [{
+    }
+  ],
+  "publications": [
+    {
       "name": "Publication",
       "publisher": "Company",
       "releaseDate": "2014-10-01",
       "url": "https://publication.com",
       "summary": "Description…"
-    }],
-    "skills": [
-      {
-        "name": "HTML",
-        "level": "Master",
-        "keywords": [
-          "Desarrollo Web", "Frontend"
-        ]
-      },
-      {
-        "name": "CSS",
-        "level": "Master",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Diseño Responsive"
-        ]
-      },
-      {
-        "name": "JavaScript",
-        "level": "Master",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-        ]
-      },
-      {
-        "name": "Tailwind",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-        ]
-      },
-      {
-        "name": "TypeScript",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
-        ]
-      },
-      {
-        "name": "Node",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-        ]
-      },
-      {
-        "name": "MySQL",
-        "level": "Avanzado",
-        "keywords": [
-          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-        ]
-      },
-      {
-        "name": "Git",
-        "level": "Avanzado",
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente"
-        ]
-      },
-      {
-        "name": "GitHub",
-        "level": "Avanzado",
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-        ]
-      },
-      {
-        "name": "Next.js",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-        ]
-      },
-      {
-        "name": "React",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-        ]
-      }
-    ],
-    "languages": [
-      {
-        "language": "Spanish",
-        "fluency": "Native speaker"
-      },
-      {
-        "language": "English",
-        "fluency": "Advanced"
-      }
-    ],
-    "interests": [{
+    }
+  ],
+  "skills": [
+    {
+      "name": "C++",
+      "level": "Avanzado",
+      "keywords": [
+        "Programación",
+        "Desarrollo de Software",
+        "Lenguaje de Programación"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "Avanzado",
+      "keywords": [
+        "Programación",
+        "Desarrollo de Software",
+        "Lenguaje de Programación"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Handlebars",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Plantillas",
+        "Rendering"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend",
+        "JavaScript",
+        "Servidor"
+      ]
+    },
+    {
+      "name": "Express",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend",
+        "Node.js",
+        "Servidor"
+      ]
+    },
+    {
+      "name": "JWT",
+      "level": "Avanzado",
+      "keywords": [
+        "Seguridad",
+        "Autenticación",
+        "Backend"
+      ]
+    },
+    {
+      "name": "SQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "Consultas",
+        "Almacenamiento de Datos"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "NoSQL",
+        "Backend",
+        "Almacenamiento de Datos"
+      ]
+    },
+    {
+      "name": "Neo4j",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "Graph Database",
+        "Backend",
+        "Almacenamiento de Datos"
+      ]
+    },
+    {
+      "name": "Elasticsearch",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "Búsqueda",
+        "Indexación",
+        "Backend"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "Avanzado",
+      "keywords": [
+        "Sistema Operativo",
+        "Administración de Servidores",
+        "Desarrollo"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [
+    {
       "name": "Wildlife",
       "keywords": [
         "Ferrets",
         "Unicorns"
       ]
-    }],
-    "references": [{
+    }
+  ],
+  "references": [
+    {
       "name": "Jane Doe",
       "reference": "Reference…"
-    }],
-    "projects": [
-      {
-        "name": "Chaleco Inteligente",
-    "isActive": true,
-    "description": "Interfaz visual para monitorear datos de un chaleco inteligente con GPS y sensores de pulso y oxígeno. Permite a los usuarios registrarse, iniciar sesión, editar sus datos personales y visualizar en tiempo real datos como velocidad, distancia, pulso, niveles de oxígeno y calorías quemadas.",
-    "highlights": [
-      "Node & Express",
-      "React & Tailwind",
-      "PostgreSQL"
-    ],
-    "url": "https://github.com/xxvnte/website-chaleco_inteligente"
-  },
-  {
-    "name": "Sitio Web de Votaciones",
-    "isActive": false,
-    "description": "Plataforma para votar en eventos con roles de usuario y administrador. Permite registrar, iniciar sesión, visualizar y votar en eventos. Administradores pueden crear y configurar eventos. Alojado en AWS EC2 (actualmente apagado).",
-    "highlights": [
-      "Node & Express",
-      "HBS & Bootstrap",
-      "MongoDB"
-    ],
-    "url": "https://github.com/xxvnte/website-reality_show"  
-  },
-      {
-        "name": "Sitio Web de Recetas de Cocina",
-        "isActive": true,
-        "description": "Plataforma para visualizar y crear recetas de cocina. Los usuarios pueden subir, editar y eliminar recetas, marcarlas como favoritas y gestionar su cuenta.",
-        "highlights": [
-          "Node & Express",
-          "HBS & Bootstrap",
-          "PostgreSQL"
-        ],
-        "url": "https://github.com/xxvnte/website-recetas_de_cocina" 
-      }
-    ]
-  }
+    }
+  ],
+  "projects": [
+    {
+      "name": "Chaleco Inteligente",
+      "isActive": true,
+      "description": "Interfaz visual para monitorear datos de un chaleco inteligente con GPS y sensores de pulso y oxígeno. Permite a los usuarios registrarse, iniciar sesión, editar sus datos personales y visualizar en tiempo real datos como velocidad, distancia, pulso, niveles de oxígeno y calorías quemadas.",
+      "highlights": [
+        "Node & Express",
+        "React & Tailwind",
+        "PostgreSQL"
+      ],
+      "url": "https://github.com/xxvnte/website-chaleco_inteligente"
+    },
+    {
+      "name": "Sitio Web de Votaciones",
+      "isActive": false,
+      "description": "Plataforma para votar en eventos con roles de usuario y administrador. Permite registrar, iniciar sesión, visualizar y votar en eventos. Administradores pueden crear y configurar eventos. Alojado en AWS EC2 (actualmente apagado).",
+      "highlights": [
+        "Node & Express",
+        "HBS & Bootstrap",
+        "MongoDB"
+      ],
+      "url": "https://github.com/xxvnte/website-reality_show"
+    },
+    {
+      "name": "Sitio Web de Recetas de Cocina",
+      "isActive": true,
+      "description": "Plataforma para visualizar y crear recetas de cocina. Los usuarios pueden subir, editar y eliminar recetas, marcarlas como favoritas y gestionar su cuenta.",
+      "highlights": [
+        "Node & Express",
+        "HBS & Bootstrap",
+        "PostgreSQL"
+      ],
+      "url": "https://github.com/xxvnte/website-recetas_de_cocina"
+    }
+  ]
+}
