@@ -152,16 +152,6 @@
       ]
     },
     {
-      "name": "Handlebars",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Plantillas",
-        "Rendering"
-      ]
-    },
-    {
       "name": "Node",
       "level": "Avanzado",
       "keywords": [
@@ -217,26 +207,6 @@
         "NoSQL",
         "Backend",
         "Almacenamiento de Datos"
-      ]
-    },
-    {
-      "name": "Neo4j",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos",
-        "Graph Database",
-        "Backend",
-        "Almacenamiento de Datos"
-      ]
-    },
-    {
-      "name": "Elasticsearch",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos",
-        "Búsqueda",
-        "Indexación",
-        "Backend"
       ]
     },
     {
