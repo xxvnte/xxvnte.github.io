@@ -6,7 +6,7 @@
     "email": "vicente13862@gmail.com",
     "phone": "+56 9 82648437",
     "url": "https://xxvnte.github.io/",
-    "summary": "Soy un estudiante de tercer año de ingeniería civil en informática y telecomunicaciones en la Universidad Diego Portales. Apasionado por la programación, con conocimientos en diversos lenguajes de programación y habilidades en resolución de problemas.",
+    "summary": "Soy un estudiante de tercer año de Ingeniería Civil en Informática y Telecomunicaciones en la Universidad Diego Portales, apasionado por la programación y la tecnología. Tengo conocimientos en diversos lenguajes de programación y experiencia trabajando con frameworks para el desarrollo de aplicaciones web.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -152,16 +152,6 @@
       ]
     },
     {
-      "name": "Handlebars",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Plantillas",
-        "Rendering"
-      ]
-    },
-    {
       "name": "Node",
       "level": "Avanzado",
       "keywords": [
@@ -217,26 +207,6 @@
         "NoSQL",
         "Backend",
         "Almacenamiento de Datos"
-      ]
-    },
-    {
-      "name": "Neo4j",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos",
-        "Graph Database",
-        "Backend",
-        "Almacenamiento de Datos"
-      ]
-    },
-    {
-      "name": "Elasticsearch",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos",
-        "Búsqueda",
-        "Indexación",
-        "Backend"
       ]
     },
     {
@@ -303,7 +273,7 @@
         "React & Tailwind",
         "PostgreSQL"
       ],
-      "url": "https://github.com/xxvnte/website-chaleco_inteligente"
+      "url": "https://github.com/xxvnte/website-chaleco_inteligente?tab=readme-ov-file#website-chaleco_inteligente"
     },
     {
       "name": "Sitio Web de Votaciones",
@@ -314,7 +284,7 @@
         "HBS & Bootstrap",
         "MongoDB"
       ],
-      "url": "https://github.com/xxvnte/website-reality_show"
+      "url": "https://github.com/xxvnte/website-reality_show?tab=readme-ov-file#webpage-reality_show"
     },
     {
       "name": "Sitio Web de Recetas de Cocina",
@@ -325,7 +295,7 @@
         "HBS & Bootstrap",
         "PostgreSQL"
       ],
-      "url": "https://github.com/xxvnte/website-recetas_de_cocina"
+      "url": "https://github.com/xxvnte/website-recetas_de_cocina?tab=readme-ov-file#webpage-recetas_de_cocina"
     }
   ]
 }
