@@ -94,12 +94,13 @@
   ],
   "skills": [
     {
-      "name": "C++",
-      "level": "Avanzado",
+      "name": "JavaScript",
+      "level": "Master",
       "keywords": [
-        "Programación",
-        "Desarrollo de Software",
-        "Lenguaje de Programación"
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
       ]
     },
     {
@@ -112,13 +113,12 @@
       ]
     },
     {
-      "name": "JavaScript",
-      "level": "Master",
+      "name": "C++",
+      "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "Fullstack"
+        "Programación",
+        "Desarrollo de Software",
+        "Lenguaje de Programación"
       ]
     },
     {
