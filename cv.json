@@ -94,15 +94,6 @@
   ],
   "skills": [
     {
-      "name": "C++",
-      "level": "Avanzado",
-      "keywords": [
-        "Programación",
-        "Desarrollo de Software",
-        "Lenguaje de Programación"
-      ]
-    },
-    {
       "name": "JavaScript",
       "level": "Master",
       "keywords": [
@@ -123,23 +114,17 @@
       ]
     },
     {
-      "name": "Tailwind",
+      "name": "Next.js",
       "level": "Avanzado",
       "keywords": [
         "Desarrollo Web",
         "Frontend",
-        "CSS Framework",
-        "Diseño Responsive"
       ]
     },
     {
-      "name": "Bootstrap",
+      "name": "Go",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "CSS Framework",
-        "Diseño Responsive"
       ]
     },
     {
@@ -160,15 +145,6 @@
         "Backend",
         "Node.js",
         "Servidor"
-      ]
-    },
-    {
-      "name": "JWT",
-      "level": "Avanzado",
-      "keywords": [
-        "Seguridad",
-        "Autenticación",
-        "Backend"
       ]
     },
     {
