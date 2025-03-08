@@ -117,8 +117,7 @@
       "name": "Next.js",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web",
-        "Frontend",
+        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
       ]
     },
     {
