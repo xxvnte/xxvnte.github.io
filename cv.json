@@ -30,11 +30,22 @@
   "work": [
     {
       "name": "SmartSide",
-      "position": "Desarrollador Fullstack",
+      "position": "Full Stack Developer",
       "url": "https://www.smartside.cl/",
       "startDate": "Dic 2024",
       "endDate": "Feb 2025",
       "summary": "Desarrollé e implementé funcionalidades en el backend con Go para diversos proyectos eCommerce. En el área de frontend, desarrollé e integré componentes interactivos en las interfaces de usuario con Next.js y React.",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "name": "Universidad Diego Portales",
+      "position": "Ayudante Profesor",
+      "url": "https://www.udp.cl/",
+      "startDate": "Mar 2025",
+      "endDate": "",
+      "summary": "Ayudante en la facultad de ingeniería para los cursos de Cálculo III y Ecuaciones Diferenciales.",
       "highlights": [
         ""
       ]
