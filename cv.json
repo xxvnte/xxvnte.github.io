@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Vicente Leiva",
-    "label": "Desarrollador de Software Jr.",
+    "label": "Software Developer",
     "image": "/me.webp",
     "email": "vicente13862@gmail.com",
     "phone": "+56 9 82648437",
     "url": "https://xxvnte.github.io/",
-    "summary": "Soy un estudiante de cuarto año de Ingeniería Civil en Informática y Telecomunicaciones en la Universidad Diego Portales, apasionado por la programación y la tecnología. Tengo conocimientos en diversos lenguajes de programación y experiencia trabajando con frameworks para el desarrollo de software.",
+    "summary": "Soy un estudiante de cuarto año de Ingeniería Civil en Informática y Telecomunicaciones en la Universidad Diego Portales, apasionado por la programación y la tecnología. Tengo experiencia trabajando con diversos lenguajes de programación y frameworks para el desarrollo de software.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -23,7 +23,7 @@
       {
         "network": "LinkedIn",
         "username": "Vicente Leiva",
-        "url": "https://cl.linkedin.com/in/vicente-leiva-b368892a6"
+        "url": "https://www.linkedin.com/in/vicenteleivab/"
       }
     ]
   },
@@ -34,7 +34,7 @@
       "url": "https://www.smartside.cl/",
       "startDate": "Dic 2024",
       "endDate": "Feb 2025",
-      "summary": "Desarrollé e implementé funcionalidades en el backend con Go para diversos proyectos eCommerce. En el área de frontend, desarrollé e integré componentes interactivos en las interfaces de usuario con Next.js y React.",
+      "summary": "Desarrollé e implementé funcionalidades en el backend con Go para diversos proyectos eCommerce, como <a href='https://talleresdebolsillo.com' style='color: #111;' target='_blank'>talleresdebolsillo.com</a> y <a href='https://seduit.cl' style='color: #111;' target='_blank'>seduit.cl</a>, incluyendo testing y resolución de errores, además de desarrollar e integrar componentes interactivos en el frontend con Next.js y React, incluyendo el consumo de APIs.",
       "highlights": [
         ""
       ]
@@ -44,10 +44,8 @@
       "position": "Ayudante Profesor",
       "url": "https://www.udp.cl/",
       "startDate": "Mar 2025",
-      "summary": "Ayudante en la facultad de ingeniería para los cursos de Cálculo III y Ecuaciones Diferenciales.",
-      "highlights": [
-        ""
-      ]
+      "summary": "Ayudante en la facultad de ingeniería para los cursos de: <p> - Ecuaciones Diferenciales y Cálculo III </p> <p> - Programación Avanzada <p>",
+      "highlights": []
     }
   ],
   "volunteer": [
