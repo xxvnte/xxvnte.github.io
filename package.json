@@ -15,10 +15,10 @@
     "astro": "^4.13.0",
     "hotkeypad": "^0.1.1",
     "ninja-keys": "^1.2.2",
-    "types": "^0.1.1",
-    "typescript": "^5.5.4"
+    "types": "^0.1.1"
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.1.1",
+    "typescript": "^5.8.2"
   }
 }
