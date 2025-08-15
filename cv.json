@@ -112,7 +112,7 @@
   ],
   "skills": [
     {
-      "name": "TypeScript",
+      "name": "JavaScript",
       "level": "Master",
       "keywords": [
         "Desarrollo Web",
@@ -136,12 +136,6 @@
       "level": "Avanzado",
       "keywords": [
         "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-      ]
-    },
-    {
-      "name": "Go",
-      "level": "Avanzado",
-      "keywords": [
       ]
     },
     {
