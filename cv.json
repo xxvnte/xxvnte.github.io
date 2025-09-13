@@ -30,7 +30,7 @@
   "work": [
     {
       "name": "Aguas Andinas",
-      "position": "Mobile Developer",
+      "position": "Ingeniero de Software",
       "url": "https://m.aguasandinas.cl/web/aguasandinas",
       "startDate": "May 2025",
       "summary": "Desarrollo de migración de la aplicación móvil <a href='https://play.google.com/store/apps/details?id=cl.aguasandinas.aquadosis&hl=es_CL' style='color: #111;' target='_blank'>Aquadosis</a> a .NET MAUI, modernizando la arquitectura y mejorando la compatibilidad multiplataforma. Adapté vistas, servicios y lógica de negocio al nuevo entorno, además de implementar nuevas interfaces de cálculo.",
@@ -40,7 +40,7 @@
     },
     {
       "name": "SmartSide",
-      "position": "Full Stack Developer",
+      "position": "Ingeniero de Software",
       "url": "https://www.smartside.cl/",
       "startDate": "Dic 2024",
       "endDate": "Feb 2025",
