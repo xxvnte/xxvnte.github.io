@@ -263,17 +263,6 @@
         "PostgreSQL"
       ],
       "url": "https://github.com/xxvnte/chaleco-inteligente#website-chaleco_inteligente"
-    },
-    {
-      "name": "Recetas de Cocina",
-      "isActive": false,
-      "description": "Plataforma para visualizar y crear recetas de cocina. Los usuarios pueden subir, editar y eliminar recetas, marcarlas como favoritas y gestionar su cuenta.",
-      "highlights": [
-        "Node & Express",
-        "HBS & Bootstrap",
-        "PostgreSQL"
-      ],
-      "url": "https://github.com/xxvnte/website-recetas_de_cocina?tab=readme-ov-file#webpage-recetas_de_cocina"
     }
   ]
 }
