@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Vicente Leiva",
-    "label": "Ingeniero de Software",
+    "label": "Software Engineer",
     "image": "/me.webp",
     "email": "vicente13862@gmail.com",
     "phone": "+56 9 82648437",
@@ -30,7 +30,7 @@
   "work": [
     {
       "name": "Aguas Andinas",
-      "position": "Ingeniero de Software",
+      "position": "Software Developer",
       "url": "https://www.aguasandinas.cl/web/aguasandinas/conocenos",
       "startDate": "May 2025",
       "summary": "Desarrollo de migración de la aplicación móvil <a href='https://play.google.com/store/apps/details?id=cl.aguasandinas.aquadosis&hl=es_CL' style='color: #111;' target='_blank'>Aquadosis</a> a .NET MAUI, modernizando la arquitectura y mejorando la compatibilidad multiplataforma. Adapté vistas, servicios y lógica de negocio al nuevo entorno, además de implementar nuevas interfaces de cálculo.",
@@ -40,7 +40,7 @@
     },
     {
       "name": "SmartSide",
-      "position": "Ingeniero de Software",
+      "position": "Software Developer",
       "url": "https://www.smartside.cl/",
       "startDate": "Dic 2024",
       "endDate": "Feb 2025",
@@ -51,7 +51,7 @@
     },
     {
       "name": "Universidad Diego Portales",
-      "position": "Ayudante Profesor",
+      "position": "Teacher Assistant",
       "url": "https://www.udp.cl/",
       "startDate": "Mar 2025",
       "summary": "Ayudante en la facultad de ingeniería para los cursos de: <p> - Programación Avanzada <p> <p> - Programación </p> <p> - Ecuaciones Diferenciales </p> <p> - Cálculo III <p>",
