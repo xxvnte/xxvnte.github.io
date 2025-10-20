@@ -33,6 +33,7 @@
       "position": "Software Developer",
       "url": "https://www.aguasandinas.cl/web/aguasandinas/conocenos",
       "startDate": "May 2025",
+      "endDate": "Oct 2025",
       "summary": "Desarrollo de migración de la aplicación móvil <a href='https://play.google.com/store/apps/details?id=cl.aguasandinas.aquadosis&hl=es_CL' style='color: #111;' target='_blank'>Aquadosis</a> a .NET MAUI, modernizando la arquitectura y mejorando la compatibilidad multiplataforma. Adapté vistas, servicios y lógica de negocio al nuevo entorno, además de implementar nuevas interfaces de cálculo.",
       "highlights": [
         ""
