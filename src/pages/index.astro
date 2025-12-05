@@ -13,10 +13,12 @@ const { name, label } = basics;
 ---
 
 <Layout title={`Portafolio de ${name} - ${label}`}>
-  <header style="padding: 1rem; display: flex; justify-content: flex-end;">
+  </header>
+  <main>
     <button
       id="theme-toggle"
       aria-label="Toggle Theme"
+      style="position: absolute; top: 1rem; right: 1rem;"
     >
       <span id="theme-icon">
         <svg
@@ -55,8 +57,6 @@ const { name, label } = basics;
         </svg>
       </span>
     </button>
-  </header>
-  <main>
     <Hero />
     <About />
     <Experience />
@@ -88,12 +88,12 @@ const { name, label } = basics;
   top: 0;
   right: 0;
   width: 40px;
-  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
+  margin-top: 8px;
 }
 
   body {
