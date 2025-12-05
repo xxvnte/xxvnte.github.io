@@ -108,7 +108,7 @@ const printInfo = [email, phone, githubUrl, linkedUrl].filter(Boolean);
   }
 
   h2 {
-    color: #444;
+    color: var(--link-color);
     font-weight: 500;
     font-size: 1.1rem;
     text-wrap: balance;
@@ -122,7 +122,7 @@ const printInfo = [email, phone, githubUrl, linkedUrl].filter(Boolean);
   }
 
   span {
-    color: #666;
+    color: var(--link-color);
     display: flex;
     align-items: center;
     gap: 0.25rem;
@@ -139,11 +139,11 @@ const printInfo = [email, phone, githubUrl, linkedUrl].filter(Boolean);
   }
 
   footer a {
-    color: #777;
+    color: var(--text-color);
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #eee;
+    border: 1px solid var(--highlight-color);
     padding: 4px;
     height: 32px;
     width: 32px;
@@ -152,7 +152,8 @@ const printInfo = [email, phone, githubUrl, linkedUrl].filter(Boolean);
   }
 
   footer a:hover {
-    background: #eee;
-    border: 1px solid #ddd;
+    background: var(--highlight-color);
+    border: 1px solid var(--highlight-color);
+    color: var(--text-color);
   }
 </style>

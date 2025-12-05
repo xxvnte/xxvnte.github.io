@@ -63,11 +63,11 @@ import { work } from "@cv";
 
   article h3 {
     font-weight: 600;
-    color: #111;
+    color: var(--text-color);
   }
 
   article a {
-    color: #111;
+    color: var(--text-color);
   }
 
   article a:hover {
@@ -75,7 +75,7 @@ import { work } from "@cv";
   }
 
   article h4 {
-    color: #222;
+    color: var(--text-color);
     font-weight: 400;
   }
 
@@ -87,10 +87,16 @@ import { work } from "@cv";
   }
 
   time {
-    color: #555;
+    color: var(--text-color);
     font-size: 0.85rem;
     min-width: 102px;
     cursor: default;
+  }
+
+  p {
+    color: var(--link-color);
+    font-size: 0. nine  rem;
+    line-height: 1.4rem;
   }
 
   [data-title]:hover:after {

@@ -34,7 +34,7 @@
       "url": "https://www.aguasandinas.cl/web/aguasandinas/conocenos",
       "startDate": "May 2025",
       "endDate": "Oct 2025",
-      "summary": "Desarrollo de migración de la aplicación móvil <a href='https://play.google.com/store/apps/details?id=cl.aguasandinas.aquadosis&hl=es_CL' style='color: #111;' target='_blank'>Aquadosis</a> a .NET MAUI, modernizando la arquitectura y mejorando la compatibilidad multiplataforma. Adapté vistas, servicios y lógica de negocio al nuevo entorno, además de implementar nuevas interfaces de cálculo.",
+      "summary": "Desarrollo de migración de la aplicación móvil <a href='https://play.google.com/store/apps/details?id=cl.aguasandinas.aquadosis&hl=es_CL' style='color: var(--text-color);' target='_blank'>Aquadosis</a> a .NET MAUI, modernizando la arquitectura y mejorando la compatibilidad multiplataforma. Adapté vistas, servicios y lógica de negocio al nuevo entorno, además de implementar nuevas interfaces de cálculo.",
       "highlights": [
         ""
       ]
@@ -45,7 +45,7 @@
       "url": "https://www.smartside.cl/",
       "startDate": "Dic 2024",
       "endDate": "Feb 2025",
-      "summary": "Desarrollé e implementé funcionalidades en el backend con Go para diversos proyectos eCommerce, como <a href='https://talleresdebolsillo.com' style='color: #111;' target='_blank'>talleresdebolsillo.com</a> y <a href='https://seduit.cl' style='color: #111;' target='_blank'>seduit.cl</a>, incluyendo testing y resolución de errores, además de desarrollar e integrar componentes interactivos en el frontend con Next.js y React, incluyendo el consumo de APIs.",
+      "summary": "Desarrollé e implementé funcionalidades en el backend con Go para diversos proyectos eCommerce, como <a href='https://talleresdebolsillo.com' style='color: var(--text-color);' target='_blank'>talleresdebolsillo.com</a> y <a href='https://seduit.cl' style='color: var(--text-color);' target='_blank'>seduit.cl</a>, incluyendo testing y resolución de errores, además de desarrollar e integrar componentes interactivos en el frontend con Next.js y React, incluyendo el consumo de APIs.",
       "highlights": [
         ""
       ]
@@ -55,7 +55,7 @@
       "position": "Teacher Assistant",
       "url": "https://www.udp.cl/",
       "startDate": "Mar 2025",
-      "summary": "Ayudante en la facultad de ingeniería para los cursos de: <p> - Programación Avanzada <p> <p> - Programación </p> <p> - Ecuaciones Diferenciales </p> <p> - Cálculo III <p>",
+      "summary": "Ayudante en la facultad de ingeniería para los cursos de: <p style='color: var(--link-color);'>- Programación Avanzada</p> <p style='color: var(--link-color);'>- Programación</p> <p style='color: var(--link-color);'>- Ecuaciones Diferenciales</p> <p style='color: var(--link-color);'>- Cálculo III</p>",
       "highlights": []
     }
   ],
