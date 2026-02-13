@@ -29,15 +29,21 @@
   },
   "work": [
     {
+      "name": "Rests",
+      "position": "Software Engineer",
+      "url": "https://rests.cl/",
+      "startDate": "Sept 2025",
+      "summary": "Diseño, desarrollo y despliegue de sistemas, integraciones E2E y automatizaciones mediante modelos de inteligencia artificial.",
+      "highlights": [""]
+    },
+    {
       "name": "Aguas Andinas",
       "position": "Software Developer",
       "url": "https://www.aguasandinas.cl/web/aguasandinas/conocenos",
       "startDate": "May 2025",
       "endDate": "Oct 2025",
       "summary": "Desarrollo de migración de la aplicación móvil <a href='https://play.google.com/store/apps/details?id=cl.aguasandinas.aquadosis&hl=es_CL' style='color: var(--text-color);' target='_blank'>Aquadosis</a> a .NET MAUI, modernizando la arquitectura y mejorando la compatibilidad multiplataforma. Adapté vistas, servicios y lógica de negocio al nuevo entorno, además de implementar nuevas interfaces de cálculo.",
-      "highlights": [
-        ""
-      ]
+      "highlights": [""]
     },
     {
       "name": "SmartSide",
@@ -46,9 +52,7 @@
       "startDate": "Dic 2024",
       "endDate": "Feb 2025",
       "summary": "Desarrollé e implementé funcionalidades en el backend con Go para diversos proyectos eCommerce, como <a href='https://talleresdebolsillo.com' style='color: var(--text-color);' target='_blank'>talleresdebolsillo.com</a> y <a href='https://seduit.cl' style='color: var(--text-color);' target='_blank'>seduit.cl</a>, incluyendo testing y resolución de errores, además de desarrollar e integrar componentes interactivos en el frontend con Next.js y React, incluyendo el consumo de APIs.",
-      "highlights": [
-        ""
-      ]
+      "highlights": [""]
     },
     {
       "name": "Universidad Diego Portales",
@@ -67,9 +71,7 @@
       "startDate": "2012-01-01",
       "endDate": "2013-01-01",
       "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
+      "highlights": ["Awarded 'Volunteer of the Month'"]
     }
   ],
   "education": [
@@ -81,9 +83,7 @@
       "startDate": "2022-03-09",
       "endDate": null,
       "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
+      "courses": ["DB1101 - Basic SQL"]
     }
   ],
   "awards": [
@@ -115,58 +115,38 @@
     {
       "name": "JavaScript",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
     },
     {
       "name": "React",
       "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
     },
     {
       "name": "Next.js",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
       ]
     },
     {
       "name": "Node",
       "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Backend",
-        "JavaScript",
-        "Servidor"
-      ]
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
     },
     {
       "name": "Express",
       "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Backend",
-        "Node.js",
-        "Servidor"
-      ]
+      "keywords": ["Desarrollo Web", "Backend", "Node.js", "Servidor"]
     },
     {
       "name": "SQL",
       "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos",
-        "Consultas",
-        "Almacenamiento de Datos"
-      ]
+      "keywords": ["Bases de Datos", "Consultas", "Almacenamiento de Datos"]
     },
     {
       "name": "PostgreSQL",
@@ -201,11 +181,7 @@
     {
       "name": "Git",
       "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones",
-        "Colaboración",
-        "Código Fuente"
-      ]
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
     },
     {
       "name": "Linux",
@@ -230,10 +206,7 @@
   "interests": [
     {
       "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
+      "keywords": ["Ferrets", "Unicorns"]
     }
   ],
   "references": [
@@ -242,28 +215,5 @@
       "reference": "Reference…"
     }
   ],
-  "projects": [
-    {
-      "name": "eMenu",
-      "isActive": false,
-      "description": "Aplicación web desarrollada para digitalización del menú y gestión general de una cafetería. El sistema permite a los clientes acceder al menú digital y realizar pedidos ingresando desde su mesa. Los administradores pueden gestionar pedidos, controlar el menú, visualizar estadísticas, entre varias funcionalidades más.",
-      "highlights": [
-        "Node & Express",
-        "Next.js & Tailwind",
-        "PostgreSQL"
-      ],
-      "url": "https://e-menu4.vercel.app/mesa/1"
-    },
-    {
-      "name": "Chaleco Inteligente",
-      "isActive": false,
-      "description": "Interfaz visual para monitorear datos de un chaleco inteligente con GPS y sensores de pulso y oxígeno. Permite a los usuarios registrarse, iniciar sesión, editar sus datos personales y visualizar en tiempo real datos como velocidad, distancia, pulso, niveles de oxígeno y calorías quemadas.",
-      "highlights": [
-        "Node & Express",
-        "React & Tailwind",
-        "PostgreSQL"
-      ],
-      "url": "https://github.com/xxvnte/chaleco-inteligente#website-chaleco_inteligente"
-    }
-  ]
+  "projects": []
 }
