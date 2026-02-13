@@ -13,17 +13,23 @@ import { projects } from "@cv";
             <article>
               <header>
                 <h3>
-                <a href={url} target="_blank" title={`Ver el proyecto ${name}`}>
-                  {name}
-                </a>
-                {isActive && <span>&bull;</span>}
-              </h3>
+                  <a
+                    href={url}
+                    target="_blank"
+                    title={`Ver el proyecto ${name}`}
+                  >
+                    {name}
+                  </a>
+                  {isActive && <span>&bull;</span>}
+                </h3>
                 <p>{description}</p>
               </header>
               <footer>
-                {highlights.map((highlights) => {
-                  return <span>{highlights}</span>;
-                })}
+                {(Array.isArray(highlights) ? highlights : []).map(
+                  (item: string) => {
+                    return <span>{item}</span>;
+                  },
+                )}
               </footer>
             </article>
           </li>
