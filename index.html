@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vicente Leiva</title>
+    <meta
+      name="description"
+      content="Vicente Leiva — Computer Science student at the University Diego Portales"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --bg: #ffffff;
+        --fg: #1a1a1a;
+        --muted: #6b7280;
+        --line: #e7e7e7;
+        --accent: #2563a8;
+        --accent-soft: #eef3f9;
+        --maxw: 720px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--fg);
+        font-family:
+          "Inter",
+          ui-sans-serif,
+          system-ui,
+          -apple-system,
+          "Segoe UI",
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+        font-size: 16px;
+        line-height: 1.65;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+
+      .wrap {
+        max-width: var(--maxw);
+        margin: 0 auto;
+        padding: 64px 24px 96px;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      /* ---------- Header ---------- */
+      .intro {
+        display: flex;
+        gap: 28px;
+        align-items: flex-start;
+      }
+
+      .intro-text {
+        flex: 1;
+        min-width: 0;
+      }
+
+      h1 {
+        font-family: "Newsreader", Georgia, "Times New Roman", serif;
+        font-weight: 500;
+        font-size: 2rem;
+        letter-spacing: -0.01em;
+        margin: 0 0 6px;
+      }
+
+      .tagline {
+        color: var(--muted);
+        font-size: 0.98rem;
+        margin: 0 0 16px;
+      }
+
+      .photo {
+        width: 132px;
+        height: 132px;
+        border-radius: 50%;
+        object-fit: cover;
+        flex-shrink: 0;
+        background: var(--accent-soft);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Newsreader", Georgia, serif;
+        font-size: 2.6rem;
+        color: var(--accent);
+        border: 1px solid var(--line);
+      }
+
+      .bio p {
+        margin: 0 0 12px;
+      }
+
+      .links {
+        margin-top: 18px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 18px;
+        font-size: 0.93rem;
+      }
+
+      .links a {
+        color: var(--fg);
+        border-bottom: 1px solid var(--line);
+        padding-bottom: 1px;
+      }
+
+      .links a:hover {
+        color: var(--accent);
+        border-color: var(--accent);
+        text-decoration: none;
+      }
+
+      /* ---------- Sections ---------- */
+      section {
+        margin-top: 52px;
+      }
+
+      h2 {
+        font-family: "Newsreader", Georgia, serif;
+        font-weight: 500;
+        font-size: 1.35rem;
+        margin: 0 0 22px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      /* ---------- News ---------- */
+      .news {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .news li {
+        display: flex;
+        gap: 16px;
+        margin-bottom: 10px;
+        font-size: 0.95rem;
+      }
+
+      .news .date {
+        color: var(--muted);
+        flex-shrink: 0;
+        width: 84px;
+        font-variant-numeric: tabular-nums;
+      }
+
+      /* ---------- Publications ---------- */
+      .pub {
+        display: flex;
+        gap: 18px;
+        margin-bottom: 26px;
+      }
+
+      .pub-thumb {
+        flex-shrink: 0;
+        width: 116px;
+        height: 78px;
+        border-radius: 8px;
+        background: var(--accent-soft);
+        border: 1px solid var(--line);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--accent);
+        font-family: "Newsreader", Georgia, serif;
+        font-size: 1.05rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+      }
+
+      .pub-body {
+        flex: 1;
+        min-width: 0;
+      }
+
+      .pub-title {
+        font-weight: 600;
+        font-size: 1rem;
+        margin: 0 0 3px;
+        line-height: 1.4;
+      }
+
+      .pub-authors {
+        font-size: 0.92rem;
+        color: var(--fg);
+        margin: 0 0 3px;
+      }
+
+      .pub-authors .me {
+        font-weight: 600;
+      }
+
+      .pub-venue {
+        font-size: 0.9rem;
+        color: var(--muted);
+        margin: 0 0 6px;
+      }
+
+      .tag {
+        display: inline-block;
+        font-size: 0.74rem;
+        font-weight: 600;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #b45309;
+        background: #fef6e7;
+        border: 1px solid #f3dca6;
+        border-radius: 999px;
+        padding: 1px 9px;
+        vertical-align: middle;
+        margin-left: 6px;
+      }
+
+      .pub-links {
+        font-size: 0.88rem;
+      }
+
+      .pub-links a {
+        margin-right: 14px;
+      }
+
+      /* ---------- CV lists (Research / Industry) ---------- */
+      .cv {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .cv li {
+        display: flex;
+        align-items: baseline;
+        gap: 16px;
+        padding: 7px 0;
+        font-size: 0.96rem;
+        border-bottom: 1px solid #f3f3f3;
+      }
+
+      .cv li:last-child {
+        border-bottom: none;
+      }
+
+      .cv-date {
+        color: var(--muted);
+        flex-shrink: 0;
+        width: 56px;
+        font-size: 0.88rem;
+        font-variant-numeric: tabular-nums;
+      }
+
+      .cv-role {
+        font-weight: 600;
+        flex-shrink: 0;
+      }
+
+      .cv-org {
+        color: var(--muted);
+        font-size: 0.9rem;
+        margin-left: auto;
+        text-align: right;
+      }
+
+      /* ---------- Awards ---------- */
+      .awards {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .awards li {
+        font-size: 0.95rem;
+        margin-bottom: 8px;
+      }
+
+      footer {
+        margin-top: 64px;
+        padding-top: 18px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.85rem;
+      }
+
+      /* ---------- Responsive ---------- */
+      @media (max-width: 600px) {
+        .wrap {
+          padding: 40px 20px 72px;
+        }
+
+        .intro {
+          flex-direction: column-reverse;
+          align-items: flex-start;
+          gap: 18px;
+        }
+
+        .photo {
+          width: 104px;
+          height: 104px;
+          font-size: 2rem;
+        }
+
+        .pub {
+          flex-direction: column;
+          gap: 10px;
+        }
+
+        .pub-thumb {
+          width: 100%;
+          height: 64px;
+        }
+
+        .news li {
+          flex-direction: column;
+          gap: 2px;
+        }
+
+        .news .date {
+          width: auto;
+        }
+
+        .cv-org {
+          margin-left: 0;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <!-- ===== Intro ===== -->
+      <header class="intro">
+        <div class="intro-text">
+          <h1>Vicente Leiva</h1>
+          <p class="tagline">
+            Computer Science student · Diego Portales University
+          </p>
+          <div class="bio">
+            <p>
+              I study Computer Science and an MSc in Engineering Sciences. I
+              have a particular passion for fields such as mathematics and
+              artificial intelligence. I also have experience working as a
+              software engineer and in academic roles, such as a teaching
+              assistant at the Faculty of Engineering.
+            </p>
+          </div>
+          <nav class="links">
+            <a href="mailto:vicente13862@gmail.com">Email</a>
+            <a href="https://github.com/xxvnte" target="_blank" rel="noopener"
+              >GitHub</a
+            >
+            <a
+              href="https://www.linkedin.com/in/vicenteleivab/"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
+          </nav>
+        </div>
+        <img
+          class="photo"
+          src="assets/profile.jpg"
+          alt="Vicente Leiva"
+          onerror="this.outerHTML = '<div class=&quot;photo&quot;>VL</div>'"
+        />
+      </header>
+
+      <!-- ===== News ===== -->
+      <section id="news">
+        <h2>News</h2>
+        <ul class="news">
+          <li>
+            <span class="date">Aug 2026</span
+            ><span
+              >I've started a new position as a teaching assistant for the Deep
+              Learning course!</span
+            >
+          </li>
+        </ul>
+      </section>
+
+      <!-- ===== Publications ===== -->
+      <!--
+      <section id="publications">
+        <h2>Publications</h2>
+
+        <div class="pub">
+          <div class="pub-thumb"></div>
+          <div class="pub-body">
+            <p class="pub-title">
+              <span class="tag"></span>
+            </p>
+            <p class="pub-authors">
+              <span class="me"></span>, , ,
+              , 
+            </p>
+            <p class="pub-venue"></p>
+            <p class="pub-links"></p>
+          </div>
+        </div>
+      </section>
+      -->
+
+      <!-- ===== Research ===== -->
+      <!--
+      <section id="research">
+        <h2>Research</h2>
+        <ul class="cv">
+          <li>
+            <span class="cv-date"></span
+            ><span class="cv-role"></span
+            ><span class="cv-org"></span>
+          </li>
+        </ul>
+      </section>
+
+
+      <!-- ===== Experience ===== -->
+      <section id="experience">
+        <h2>Experience</h2>
+        <ul class="cv">
+          <li>
+            <span class="cv-date">2025 –</span
+            ><a
+              href="https://rests.cl"
+              target="_blank"
+              rel="noopener"
+              class="cv-role"
+              style="color: #000000"
+              >Rests</a
+            >
+            <span class="cv-org">Software Engineer</span>
+          </li>
+          <li>
+            <span class="cv-date">2025</span
+            ><a
+              href="https://www.aguasandinas.cl/web/aguasandinas/conocenos"
+              target="_blank"
+              rel="noopener"
+              class="cv-role"
+              style="color: #000000"
+              >Aguas Andinas</a
+            >
+            <span class="cv-org">Software Developer</span>
+          </li>
+          <li>
+            <span class="cv-date">2024</span
+            ><a
+              href="https://smartside.cl"
+              target="_blank"
+              rel="noopener"
+              class="cv-role"
+              style="color: #000000"
+              >SmartSide</a
+            >
+            <span class="cv-org">Software Developer Intern</span>
+          </li>
+          <li>
+            <span class="cv-date">2025 –</span
+            ><a
+              href="https://www.udp.cl"
+              target="_blank"
+              rel="noopener"
+              class="cv-role"
+              style="color: #000000"
+              >Diego Portales University</a
+            >
+            <span class="cv-org">Teaching Assistant</span>
+          </li>
+        </ul>
+      </section>
+
+      <footer>© <span id="year"></span> Vicente Leiva</footer>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
